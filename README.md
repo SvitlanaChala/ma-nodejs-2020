@@ -1,2 +1,1 @@
-# ma-nodejs-2020
-Node.js course
+My JS entrance test
