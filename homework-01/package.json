@@ -22,5 +22,11 @@
     "lint-staged": "^9.4.3",
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1"
-  }
+  },
+  "husky": {    
+    "hooks": {      
+      "pre-commit": "npm test", 
+      "pre-push": "npm test"   
+    }  
+ }
 }

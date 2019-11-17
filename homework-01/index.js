@@ -10,4 +10,6 @@ const server = http.createServer((req, res) => {
   res.end(nanoid());
 });
 
-server.listen(port, hostname, () => console.log(`Server is running at http://${hostname}:${port}/`));
+server.listen(port, hostname, () =>
+  console.log(`Server is running at http://${hostname}:${port}/`)
+);
