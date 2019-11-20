@@ -1,0 +1,32 @@
+{
+  "name": "homework-01",
+  "version": "1.0.0",
+  "description": "Project setup",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^2.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.19.1"
+  },
+  "husky": {    
+    "hooks": {      
+      "pre-commit": "npm lint", 
+      "pre-push": "npm lint"   
+    }  
+ }
+}
