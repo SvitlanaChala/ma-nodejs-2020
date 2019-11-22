@@ -11,4 +11,4 @@ class Planet {
 
 const planet = new Planet('Mars', 6800);
 
-module.exports = { planet };
+module.exports =  planet ;

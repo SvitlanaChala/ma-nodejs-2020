@@ -6,4 +6,4 @@ const sum = (...args) => {
   return suma;
 };
 
-module.exports = { sum };
+module.exports =  sum ;
